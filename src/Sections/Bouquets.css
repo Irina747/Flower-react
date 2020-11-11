@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+.bouquets {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    padding-bottom: 80px;
+    background-color: rgba(255, 128, 126, 0.04);
+}
+.card img {
+    height: 165px;
+}
+.card {
+    margin: 10px;
+    padding: 9px;
+    text-align: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    background-color: white;
+    width: 195px;
+}
+.card h4 {
+    margin-bottom: -12px;
+}
